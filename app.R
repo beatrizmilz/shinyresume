@@ -6,7 +6,8 @@
 #
 #    http://shiny.rstudio.com/
 #
-
+source("data-raw/create_academic_dataset.R", encoding = "UTF-8")
+source("data-raw/create_academic_badges.R", encoding = "UTF-8")
 library(shiny)
 library(magrittr, include.only = "%>%")
 
@@ -19,7 +20,7 @@ ui <- fluidPage(
         "@import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);"
     ),
     # Application title
-    titlePanel("Publicações e apresentações"),
+    titlePanel("Publications and conference presentations"),
     
     # Sidebar with a slider input for number of bins
     sidebarLayout(
@@ -33,13 +34,22 @@ ui <- fluidPage(
                 
             ),
             
+            shiny::selectInput(
+                inputId = "tipo_publicacao",
+                label = "Type of publication:",
+                choices = unique(academic_badges$type_of_publication),
+                multiple = TRUE,
+                selected = unique(academic_badges$type_of_publication)
+                
+            ),
+            
             
             sliderInput(
                 "ano",
-                "Ano:",
-                min = min(academic_badges$year),
-                max = max(academic_badges$year),
-                value = c(2019, 2020),
+                "Year:",
+                min = min(academic_badges$year,na.rm = TRUE),
+                max = max(academic_badges$year,na.rm = TRUE),
+                value = c(2019, 2021),
                 timeFormat = "%Y"
             ),
             
@@ -59,6 +69,8 @@ server <- function(input, output) {
         texto <- academic_badges %>%
             dplyr::filter(year >= input$ano[1], year <= input$ano[2]) %>%
             dplyr::filter(status %in% input$status) %>%
+            dplyr::filter(type_of_publication %in% input$tipo_publicacao) %>%
+            dplyr::arrange(desc(year)) %>% 
             dplyr::pull(text)
         
         HTML(markdown::markdownToHTML(text = texto))

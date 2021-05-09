@@ -57,15 +57,24 @@ academic_badges <- academic %>%
   
   dplyr::mutate(
     authors = stringr::str_replace_all(authors, "Beatriz Milz", glue::glue('<a href="https://orcid.org/0000-0002-3064-4486">Beatriz Milz</a>')),
-    authors = stringr::str_replace_all(authors, "Pedro Roberto Jacobi", glue::glue('<a href="https://orcid.org/0000-0001-6143-3019">Pedro Roberto Jacobi</a>'))
+    authors = stringr::str_replace_all(authors, "Pedro Roberto Jacobi|Pedro Jacobi", glue::glue('<a href="https://orcid.org/0000-0001-6143-3019">Pedro Roberto Jacobi</a>')),
+    authors = stringr::str_replace_all(authors, "Wagner Costa Ribeiro", glue::glue('<a href="https://orcid.org/0000-0002-3485-9521">Wagner Costa Ribeiro</a>')),
+    authors = stringr::str_replace_all(authors, "Ana Carolina Campos", glue::glue('<a href="https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/">Ana Carolina Campos</a>'))
+    
+    
+    
   )
 
 
 academic_text <- academic_badges %>%
   dplyr::mutate(
+    ano_previsao = dplyr::case_when(
+      status == "Submitted" ~ glue::glue("Not published yet"),
+      TRUE ~ glue::glue("{year}")
+    ),
     text =
       glue::glue(
-        "- {status_badges} {type_of_publication_badges} {url_text_badges} {url_slides_badges} {url_code_badges} \n  - {year}. {authors}. {title}. {item_info}. \n\n \n\n"
+        "- {status_badges} {type_of_publication_badges} <br> {url_text_badges} {url_slides_badges} {url_code_badges} \n  - {ano_previsao}. {authors}. {title}. {item_info}. \n\n \n\n \\<br>"
       )
   )
 

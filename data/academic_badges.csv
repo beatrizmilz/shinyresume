@@ -1,17 +1,117 @@
-status;type_of_publication;year;title;authors;item_info;url_text;url_code;url_slides;status_badges;type_of_publication_badges;url_text_badges;url_code_badges;url_slides_badges;text
-Presented;Conference presentation;2020;"Avaliação da transparência em atas de reuniões dos Comitês de 
+status;type_of_publication;year;title;authors;item_info;url_text;url_code;url_slides;status_badges;type_of_publication_badges;url_text_badges;url_code_badges;url_slides_badges;ano_previsao;text
+Presented;Conference presentation;2020;"Avaliação da transparência em atas de reuniões dos Comitês de
     Bacias Hidrográficas na Macrometrópole Paulista (Brasil)";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, Diego Braga";"LatinR 2020 - *Conferencia Latinoamericana sobre
-    Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020.";https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf;NA;https://macroamb-latin-r.netlify.app/;![Status](https://img.shields.io/badge/Status-Presented-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf);;[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://macroamb-latin-r.netlify.app/);"- ![Status](https://img.shields.io/badge/Status-Presented-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg) [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf) [![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://macroamb-latin-r.netlify.app/)  
- - 2020. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, Diego Braga. Avaliação da transparência em atas de reuniões dos Comitês de 
+    Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020";https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf;NA;https://macroamb-latin-r.netlify.app/;![Status](https://img.shields.io/badge/Status-Presented-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf);;[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://macroamb-latin-r.netlify.app/);2020;"- ![Status](https://img.shields.io/badge/Status-Presented-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg) <br> [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf) [![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://macroamb-latin-r.netlify.app/)  
+- 2020. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, Diego Braga. Avaliação da transparência em atas de reuniões dos Comitês de
     Bacias Hidrográficas na Macrometrópole Paulista (Brasil). LatinR 2020 - *Conferencia Latinoamericana sobre
-    Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020.. 
+    Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020. 
 
+ 
 
-"
+<br>"
+Presented;Conference presentation;2020;"Levantamento exploratório de estudos sobre a Governança ambiental
+    na Macrometrópole Paulista";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>";"IN: Caderno de resumos do I Fórum de Governança Ambiental da 
+    Macrometrópole Paulista. Organizadores: Pedro Henrique C. Torres e Pedro Roberto Jacobi
+    (Organizadores), São Paulo: IEE-USP, 1ª ed., 2019, 331 pgs. ISBN 978-85-86923-56-2";http://pesquisa.ufabc.edu.br/macroamb/wp-content/uploads/2019/12/forum_macroamb_cad_resumo_FINAL-compactado.pdf;NA;NA;![Status](https://img.shields.io/badge/Status-Presented-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](http://pesquisa.ufabc.edu.br/macroamb/wp-content/uploads/2019/12/forum_macroamb_cad_resumo_FINAL-compactado.pdf);;;2020;"- ![Status](https://img.shields.io/badge/Status-Presented-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg) <br> [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](http://pesquisa.ufabc.edu.br/macroamb/wp-content/uploads/2019/12/forum_macroamb_cad_resumo_FINAL-compactado.pdf)   
+- 2020. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>. Levantamento exploratório de estudos sobre a Governança ambiental
+    na Macrometrópole Paulista. IN: Caderno de resumos do I Fórum de Governança Ambiental da 
+    Macrometrópole Paulista. Organizadores: Pedro Henrique C. Torres e Pedro Roberto Jacobi
+    (Organizadores), São Paulo: IEE-USP, 1ª ed., 2019, 331 pgs. ISBN 978-85-86923-56-2. 
+
+ 
+
+<br>"
 Presented;Conference presentation;2019;"Governança da Água e perspectivas para a avaliação da qualidade de
-    informações em indicadores de transparência";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>";IX ENANPPAS;https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf;NA;https://milz-2019enanppas.netlify.app/;![Status](https://img.shields.io/badge/Status-Presented-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf);;[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://milz-2019enanppas.netlify.app/);"- ![Status](https://img.shields.io/badge/Status-Presented-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg) [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf) [![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://milz-2019enanppas.netlify.app/)  
- - 2019. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>. Governança da Água e perspectivas para a avaliação da qualidade de
-    informações em indicadores de transparência. IX ENANPPAS. 
+    informações em indicadores de transparência";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>";"Anais do IV Encontro Nacional da Associação Nacional de
+    Pós-graduação e Pesquisa em Ambiente e Sociedade - ENANPPAS 2019";https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf;NA;https://milz-2019enanppas.netlify.app/;![Status](https://img.shields.io/badge/Status-Presented-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf);;[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://milz-2019enanppas.netlify.app/);2019;"- ![Status](https://img.shields.io/badge/Status-Presented-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg) <br> [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf) [![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://milz-2019enanppas.netlify.app/)  
+- 2019. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>. Governança da Água e perspectivas para a avaliação da qualidade de
+    informações em indicadores de transparência. Anais do IV Encontro Nacional da Associação Nacional de
+    Pós-graduação e Pesquisa em Ambiente e Sociedade - ENANPPAS 2019. 
 
+ 
 
-"
+<br>"
+Presented;Conference presentation;2021;"Transparency of Information on the Water Basin Committees Plenums
+    in the Sao Paulo Macrometropolis, Brazil";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>";"*International Sociological Association (ISA) Forum of
+    Sociology: Challenges of the 21st Century: Democracy, Environment,
+    Inequalities, Intersectionality*. 23 à 28 de fevereiro de 2021";NA;https://github.com/beatrizmilz/IV_ISA_2021;https://macroamb-isaconf2021.netlify.app/;![Status](https://img.shields.io/badge/Status-Presented-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg);;[![Read the code](https://img.shields.io/badge/URL-Code-lightgray.svg)](https://github.com/beatrizmilz/IV_ISA_2021);[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://macroamb-isaconf2021.netlify.app/);2021;"- ![Status](https://img.shields.io/badge/Status-Presented-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Conference presentation-9cf.svg) <br>  [![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)](https://macroamb-isaconf2021.netlify.app/) [![Read the code](https://img.shields.io/badge/URL-Code-lightgray.svg)](https://github.com/beatrizmilz/IV_ISA_2021) 
+- 2021. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>. Transparency of Information on the Water Basin Committees Plenums
+    in the Sao Paulo Macrometropolis, Brazil. *International Sociological Association (ISA) Forum of
+    Sociology: Challenges of the 21st Century: Democracy, Environment,
+    Inequalities, Intersectionality*. 23 à 28 de fevereiro de 2021. 
+
+ 
+
+<br>"
+Published;Book chapter;2020;"Chapter 10 - Recent extreme climate events in the São Paulo 
+    Macrometropolis";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/"">Ana Carolina Campos</a>";"IN: Adaptation and Public Policies in the São Paulo Macro
+    Metropolis: A Science-Policy Approach. 1. ed. – São Paulo: IEE-USP, 2020.
+    Orgs: <a href='https://orcid.org/0000-0002-0468-4329'>TORRES, P. H. C.
+    <i class='fab fa-orcid'></i></a>; <a href='https://orcid.org/0000-0001-6143-3019'>
+    JACOBI, P. R. <i class='fab fa-orcid'></i></a>;
+    <a href='https://orcid.org/0000-0003-4531-3513'>BARBI, F.
+    <i class='fab fa-orcid'></i></a>; <a href='https://orcid.org/0000-0003-1182-418X'>
+    GONÇALVES, L. R. <i class='fab fa-orcid'></i></a>";https://doi.org/10.11606/9788586923593;NA;NA;![Status](https://img.shields.io/badge/Status-Published-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://doi.org/10.11606/9788586923593);;;2020;"- ![Status](https://img.shields.io/badge/Status-Published-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg) <br> [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://doi.org/10.11606/9788586923593)   
+- 2020. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/"">Ana Carolina Campos</a>. Chapter 10 - Recent extreme climate events in the São Paulo 
+    Macrometropolis. IN: Adaptation and Public Policies in the São Paulo Macro
+    Metropolis: A Science-Policy Approach. 1. ed. – São Paulo: IEE-USP, 2020.
+    Orgs: <a href='https://orcid.org/0000-0002-0468-4329'>TORRES, P. H. C.
+    <i class='fab fa-orcid'></i></a>; <a href='https://orcid.org/0000-0001-6143-3019'>
+    JACOBI, P. R. <i class='fab fa-orcid'></i></a>;
+    <a href='https://orcid.org/0000-0003-4531-3513'>BARBI, F.
+    <i class='fab fa-orcid'></i></a>; <a href='https://orcid.org/0000-0003-1182-418X'>
+    GONÇALVES, L. R. <i class='fab fa-orcid'></i></a>. 
+
+ 
+
+<br>"
+Published;Book chapter;2019;"Breve levantamento de eventos climáticos extremos na Macrometrópole
+    Paulista";"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/"">Ana Carolina Campos</a>";"IN: Governança e Planejamento Ambiental: adaptação e políticas
+    públicas na Macrometrópole Paulista. Editora Letra Capital. 2019. p. 114–119.";https://www.letracapital.com.br/produto/governanca-e-planejamento-ambiental-adaptacao-e-politicas-publicas-na-macrometropole-paulista/;NA;NA;![Status](https://img.shields.io/badge/Status-Published-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://www.letracapital.com.br/produto/governanca-e-planejamento-ambiental-adaptacao-e-politicas-publicas-na-macrometropole-paulista/);;;2019;"- ![Status](https://img.shields.io/badge/Status-Published-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg) <br> [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://www.letracapital.com.br/produto/governanca-e-planejamento-ambiental-adaptacao-e-politicas-publicas-na-macrometropole-paulista/)   
+- 2019. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/"">Ana Carolina Campos</a>. Breve levantamento de eventos climáticos extremos na Macrometrópole
+    Paulista. IN: Governança e Planejamento Ambiental: adaptação e políticas
+    públicas na Macrometrópole Paulista. Editora Letra Capital. 2019. p. 114–119.. 
+
+ 
+
+<br>"
+Published;Journal;2019;Barragens de água na Macrometrópole Paulista;"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/"">Ana Carolina Campos</a>";Diálogos Socioambientais na Macrometrópole Paulista. Volume 2. 2019. p. 34-37;https://periodicos.ufabc.edu.br/index.php/dialogossocioambientais/issue/view/23;NA;NA;![Status](https://img.shields.io/badge/Status-Published-green.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Journal-yellowgreen.svg);[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://periodicos.ufabc.edu.br/index.php/dialogossocioambientais/issue/view/23);;;2019;"- ![Status](https://img.shields.io/badge/Status-Published-green.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Journal-yellowgreen.svg) <br> [![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)](https://periodicos.ufabc.edu.br/index.php/dialogossocioambientais/issue/view/23)   
+- 2019. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/"">Ana Carolina Campos</a>. Barragens de água na Macrometrópole Paulista. Diálogos Socioambientais na Macrometrópole Paulista. Volume 2. 2019. p. 34-37. 
+
+ 
+
+<br>"
+Submitted;Book chapter;2021;Seguridad hídrica y gobernanza del agua en la metrópolis de São Paulo;"<a href=""https://orcid.org/0000-0002-3485-9521"">Wagner Costa Ribeiro</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>";IN: *Seguridad hídrica, gobernanza del agua y conflictos: estudio comparado de casos en América Latina*. Org: Javier Gonzaga (Universidad de Caldas – Colombia);NA;NA;NA;![status](https://img.shields.io/badge/Status-Submitted-orange.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg);;;;Not published yet;"- ![status](https://img.shields.io/badge/Status-Submitted-orange.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg) <br>    
+- Not published yet. <a href=""https://orcid.org/0000-0002-3485-9521"">Wagner Costa Ribeiro</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>. Seguridad hídrica y gobernanza del agua en la metrópolis de São Paulo. IN: *Seguridad hídrica, gobernanza del agua y conflictos: estudio comparado de casos en América Latina*. Org: Javier Gonzaga (Universidad de Caldas – Colombia). 
+
+ 
+
+<br>"
+Submitted;Book chapter;2021;Polycentric water governance in the Urban Global South;"Klaus Frey, Ruth Ferreira Ramos, Lidiane Alonso Paixão dos Anjos, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>";Book Sustainability in Natural Resources Management and Land Planning. Editora Springer;NA;NA;NA;![status](https://img.shields.io/badge/Status-Submitted-orange.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg);;;;Not published yet;"- ![status](https://img.shields.io/badge/Status-Submitted-orange.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg) <br>    
+- Not published yet. Klaus Frey, Ruth Ferreira Ramos, Lidiane Alonso Paixão dos Anjos, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>, <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>. Polycentric water governance in the Urban Global South. Book Sustainability in Natural Resources Management and Land Planning. Editora Springer. 
+
+ 
+
+<br>"
+Submitted;Book chapter;2021;Levantamento de estudos sobre a Macrometrópole Paulista entre os anos de 2010 e 2020;"<a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>";"IN: Inovação para Governança da Macrometrópole Paulista face à
+    emergência climática. Organizadores: <a href='https://orcid.org/0000-0001-6143-3019'>
+    JACOBI, PEDRO ROBERTO</a>; <a href='https://orcid.org/0000-0003-1154-6503'>GIATTI,
+    LEANDRO LUIZ</a>. Editora CRV";NA;NA;NA;![status](https://img.shields.io/badge/Status-Submitted-orange.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg);;;;Not published yet;"- ![status](https://img.shields.io/badge/Status-Submitted-orange.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg) <br>    
+- Not published yet. <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>, <a href=""https://orcid.org/0000-0001-6143-3019"">Pedro Roberto Jacobi</a>. Levantamento de estudos sobre a Macrometrópole Paulista entre os anos de 2010 e 2020. IN: Inovação para Governança da Macrometrópole Paulista face à
+    emergência climática. Organizadores: <a href='https://orcid.org/0000-0001-6143-3019'>
+    JACOBI, PEDRO ROBERTO</a>; <a href='https://orcid.org/0000-0003-1154-6503'>GIATTI,
+    LEANDRO LUIZ</a>. Editora CRV. 
+
+ 
+
+<br>"
+Submitted;Book chapter;2021;Paranapiacaba, Água e o Abastecimento da Macrometrópole Paulista;"LOPES, I. M.; MEDICI, A., <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>";"IN: Paranapiacaba: conflitos, saberes e perspectivas de 
+    desenvolvimento na Macrometrópole Paulista. Organizado por Ramos, R.F.; 
+    Passarelli, S.H.F; Sulaiman, S.; Jacobi, P";NA;NA;NA;![status](https://img.shields.io/badge/Status-Submitted-orange.svg);![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg);;;;Not published yet;"- ![status](https://img.shields.io/badge/Status-Submitted-orange.svg) ![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg) <br>    
+- Not published yet. LOPES, I. M.; MEDICI, A., <a href=""https://orcid.org/0000-0002-3064-4486"">Beatriz Milz</a>. Paranapiacaba, Água e o Abastecimento da Macrometrópole Paulista. IN: Paranapiacaba: conflitos, saberes e perspectivas de 
+    desenvolvimento na Macrometrópole Paulista. Organizado por Ramos, R.F.; 
+    Passarelli, S.H.F; Sulaiman, S.; Jacobi, P. 
+
+ 
+
+<br>"
