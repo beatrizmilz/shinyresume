@@ -115,7 +115,21 @@ tibble::tibble(
     #url_code = character(),
     #url_slides = character()
   ) %>% 
-
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Editorial",
+    year = 2020,
+    title = 'Editorial nº 1/2020 . What fires in Australia indicate - Reflections on their scope',
+    authors = "Pedro Roberto Jacobi, Edson Grandisoli, 
+    Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+    item_info = "Ambient. soc.,  São Paulo ,  v. 23",
+    url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100201&lng=en&nrm=iso"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+# submetidos
   tibble::add_row(
     status = "Submitted",
     type_of_publication = "Book chapter",

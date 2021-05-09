@@ -1,5 +1,6 @@
 library(magrittr, include.only = "%>%")
 academic <- readr::read_csv2("data/academic_dataset.csv")
+source("R/add_url_to_authors.R", encoding = "UTF-8")
 
 academic_badges <- academic %>%
   dplyr::mutate(
@@ -38,32 +39,32 @@ academic_badges <- academic %>%
     ),
     
     url_text_badges = dplyr::case_when(
-      !is.na(url_text) ~ glue::glue("[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)]({url_text})"),
+      !is.na(url_text) ~ glue::glue(
+        "[![Read the text](https://img.shields.io/badge/URL-Text-lightgray.svg)]({url_text})"
+      ),
       TRUE ~ glue::glue("")
     ),
     
     url_code_badges = dplyr::case_when(
-      !is.na(url_code) ~ glue::glue("[![Read the code](https://img.shields.io/badge/URL-Code-lightgray.svg)]({url_code})"),
+      !is.na(url_code) ~ glue::glue(
+        "[![Read the code](https://img.shields.io/badge/URL-Code-lightgray.svg)]({url_code})"
+      ),
       TRUE ~ glue::glue("")
     ),
     
     url_slides_badges = dplyr::case_when(
-      !is.na(url_slides) ~ glue::glue("[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)]({url_slides})"),
+      !is.na(url_slides) ~ glue::glue(
+        "[![Read the slides](https://img.shields.io/badge/URL-Slides-lightgray.svg)]({url_slides})"
+      ),
       TRUE ~ glue::glue("")
     ),
     
-  ) %>% 
+  ) %>%
   
   
-  dplyr::mutate(
-    authors = stringr::str_replace_all(authors, "Beatriz Milz", glue::glue('<a href="https://orcid.org/0000-0002-3064-4486">Beatriz Milz</a>')),
-    authors = stringr::str_replace_all(authors, "Pedro Roberto Jacobi|Pedro Jacobi", glue::glue('<a href="https://orcid.org/0000-0001-6143-3019">Pedro Roberto Jacobi</a>')),
-    authors = stringr::str_replace_all(authors, "Wagner Costa Ribeiro", glue::glue('<a href="https://orcid.org/0000-0002-3485-9521">Wagner Costa Ribeiro</a>')),
-    authors = stringr::str_replace_all(authors, "Ana Carolina Campos", glue::glue('<a href="https://bv.fapesp.br/pt/pesquisador/671872/ana-carolina-abreu-de-campos/">Ana Carolina Campos</a>'))
-    
-    
-    
-  )
+  dplyr::mutate(authors_link = add_url_to_authors(authors),
+                item_info_link = add_url_to_authors(item_info),
+                )
 
 
 academic_text <- academic_badges %>%
@@ -74,11 +75,10 @@ academic_text <- academic_badges %>%
     ),
     text =
       glue::glue(
-        "- {status_badges} {type_of_publication_badges} <br> {url_text_badges} {url_slides_badges} {url_code_badges} \n  - {ano_previsao}. {authors}. {title}. {item_info}. \n\n \n\n \\<br>"
+        "- {status_badges} {type_of_publication_badges} <br> {url_text_badges} {url_slides_badges} {url_code_badges} \n  - {ano_previsao}. {authors_link}. {title}. {item_info_link}. \n\n \n\n \\<br>"
       )
   )
 
 
 academic_text %>%
   readr::write_csv2("data/academic_badges.csv")
-

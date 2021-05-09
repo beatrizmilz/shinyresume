@@ -1,0 +1,13 @@
+name: shinyresume
+title: shinyresume
+username:
+account: beatriz-milz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4101820
+bundleId: 4575682
+url: https://beatriz-milz.shinyapps.io/shinyresume/
+when: 1620522622.01594
+lastSyncTime: 1620522622.01595
+asMultiple: FALSE
+asStatic: FALSE
