@@ -14,6 +14,11 @@ academic_badges <- academic %>%
       status == "Submitted" ~ glue::glue(
         "![status](https://img.shields.io/badge/Status-Submitted-orange.svg)"
       ),
+      
+      status == "Approved" ~ glue::glue(
+        "![status](https://img.shields.io/badge/Status-Approved-lightgreen.svg)"
+      ),
+      
       TRUE ~ glue::glue(
         "![Status](https://img.shields.io/badge/Status-{status}-lightgray.svg)"
       )
@@ -78,6 +83,7 @@ academic_text <- academic_badges %>%
   dplyr::mutate(
     ano_previsao = dplyr::case_when(
       status == "Submitted" ~ glue::glue("Not published yet"),
+      status == "Approved" & type_of_publication == "Conference presentation" ~ glue::glue("Not presented yet"),
       TRUE ~ glue::glue("{year}")
     ),
     text =

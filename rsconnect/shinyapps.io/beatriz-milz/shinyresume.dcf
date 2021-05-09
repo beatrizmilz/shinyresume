@@ -5,9 +5,9 @@ account: beatriz-milz
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4101820
-bundleId: 4575753
+bundleId: 4578240
 url: https://beatriz-milz.shinyapps.io/shinyresume/
-when: 1620524693.16829
-lastSyncTime: 1620524693.16831
+when: 1620597689.80575
+lastSyncTime: 1620597689.80576
 asMultiple: FALSE
 asStatic: FALSE

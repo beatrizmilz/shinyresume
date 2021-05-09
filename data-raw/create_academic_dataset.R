@@ -11,6 +11,7 @@ tibble::tibble(
   url_slides = character(),
   url_youtube = character()
 ) %>%
+  # finalizados -----------
   tibble::add_row(
     status = "Presented",
     type_of_publication = "Conference presentation",
@@ -119,6 +120,55 @@ tibble::tibble(
     #url_slides = character()
   ) %>% 
   
+  ## Editoriais -----
+
+tibble::add_row(
+  status = "Published",
+  type_of_publication = "Journal Editorial",
+  year = 2019,
+  title = 'Editorial nº 1/2019 . Critical interdisciplinary sciences, crisis and 
+  disasters',
+  authors = "Pedro Roberto Jacobi, Leandro Luiz Giatti,
+  Vanessa Lucena Empinotti,Pedro Luiz Côrtes, Roberto Donato da Silva Júnior,
+    Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+  item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 22",
+  url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2019000100201&lng=pt&nrm=iso"#,
+  # url_code = character(),
+  # url_slides = character()
+) %>%
+
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2019,
+    title = 'Editorial nº 2/2019 . Nature in decline: warning of IPBES report
+    on species extinction',
+  authors = "Pedro Roberto Jacobi, 
+    Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+  item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 22",
+  url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2019000100202&lng=pt&nrm=iso"#,
+  # url_code = character(),
+  # url_slides = character()
+  ) %>%
+  
+  
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2019,
+    title = 'Editorial nº 3/2019 . Threatened Amazon',
+    authors = "Pedro Roberto Jacobi, Leandro Luiz Giatti, 
+    Roberto Donato da Silva Júnior, Pedro Luiz Côrtes, Alexander Turra,
+    Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 22",
+    url_text = "https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2019000100203&lng=pt&nrm=iso&tlng=pt"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+
   tibble::add_row(
     status = "Published",
     type_of_publication = "Journal Editorial",
@@ -126,13 +176,83 @@ tibble::tibble(
     title = 'Editorial nº 1/2020 . What fires in Australia indicate - Reflections on their scope',
     authors = "Pedro Roberto Jacobi, Edson Grandisoli, 
     Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
-    item_info = "Ambient. soc.,  São Paulo ,  v. 23",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 23",
     url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100201&lng=en&nrm=iso"#,
     # url_code = character(),
     # url_slides = character()
   ) %>%
   
-# submetidos
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2020,
+    title = 'Editorial N° 03/2020 The COVID-19 epoch: Interdisciplinary research towards a new just and sustainable ethic',
+    authors = "Zenaida Luisa Lauda-Rodriguez, Beatriz Milz,
+    Igor Matheus Santana-Chaves, Pedro Henrique Campello Torres, Pedro Roberto Jacobi",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 23",
+    url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100203&lng=en&nrm=iso"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2020,
+    title = 'Editorial N° 04/2020 The emergence of coronavirus and 
+    contemporary socio-environmental challenges',
+    authors = "Leandro Luiz Giatti, Mariana Gutierres Arteiro da Paz,
+    Renata Ferraz de Toledo, Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 23",
+    url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100204&lng=en&nrm=iso"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2020,
+    title = 'Editorial N° 05/2020 The interactions among science,
+    politics and communication in a context of crisis',
+    authors = "Gabriela Di Giulio, Pedro Roberto Jacobi, Roberto Silva Jr., 
+    Kauê Lopes dos Santos, Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 23",
+    url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100205&lng=en&nrm=iso"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2020,
+    title = 'Editorial N° 06/2020 Planning and Urbanization in Climate
+    Change Scenarios',
+    authors = "Sandra Momm, Edmilson Dias de Freitas, Pedro Roberto Jacobi, 
+    Igor Matheus Santana-Chaves, Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 23",
+    url_text = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100206&lng=en&nrm=iso"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Journal Editorial",
+    year = 2021,
+    title = 'Editorial N° 01/2021 Science and environmental crisis
+    amid fires and pandemia',
+    authors = "Sandro Dutra e Silva, Pedro Roberto Jacobi, 
+     Zenaida Luisa Lauda-Rodriguez, Beatriz Milz",
+    item_info = "<a href='http://scielo.br/asoc/'>Ambiente & Sociedade</a>,  São Paulo ,  v. 24",
+    url_text = "https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2021000100201&lng=pt&nrm=iso&tlng=en"#,
+    # url_code = character(),
+    # url_slides = character()
+  ) %>%
+  
+  
+# submetidos ---------------
   tibble::add_row(
     status = "Submitted",
     type_of_publication = "Book chapter",
@@ -188,5 +308,18 @@ tibble::tibble(
     #url_slides = character()
   ) %>% 
   
-
+  tibble::add_row(
+    status = "Approved",
+    type_of_publication = "Conference presentation",
+    year = 2021, # PREVISTO
+    title = "Coleta de dados automatizada e integração contínua utilizando 
+    GitHub Actions: Exemplos com o Pacote Mananciais",
+    authors = "Beatriz Milz",
+    item_info = "[V International Seminar on Statistics with R](http://ser.uff.br/)",
+    #url_text = ""
+    #url_code = character(),
+    #url_slides = character()
+  ) %>% 
+  
+  
   readr::write_csv2("data/academic_dataset.csv")
