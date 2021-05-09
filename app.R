@@ -13,6 +13,7 @@ ui <- fluidPage(
     # Application title
     titlePanel("Publications and conference presentations"),
     
+    
     # Sidebar
     sidebarLayout(
         sidebarPanel(
@@ -40,8 +41,7 @@ ui <- fluidPage(
                 "Year:",
                 min = min(academic_badges$year, na.rm = TRUE),
                 max = max(academic_badges$year, na.rm = TRUE),
-                value = c(2019, 2021),
-                timeFormat = "%Y"
+                value = c(2019, 2021)
             )
             
             

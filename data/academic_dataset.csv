@@ -1,18 +1,18 @@
-status;type_of_publication;year;title;authors;item_info;url_text;url_code;url_slides
+status;type_of_publication;year;title;authors;item_info;url_text;url_code;url_slides;url_youtube
 Presented;Conference presentation;2020;"Avaliação da transparência em atas de reuniões dos Comitês de
     Bacias Hidrográficas na Macrometrópole Paulista (Brasil)";Beatriz Milz, Pedro Roberto Jacobi, Diego Braga;"LatinR 2020 - *Conferencia Latinoamericana sobre
-    Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020";https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf;NA;https://macroamb-latin-r.netlify.app/
+    Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020";https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf;NA;https://macroamb-latin-r.netlify.app/;https://www.youtube.com/watch?v=K8wmO3mSbU8
 Presented;Conference presentation;2020;"Levantamento exploratório de estudos sobre a Governança ambiental
     na Macrometrópole Paulista";Beatriz Milz, Pedro Roberto Jacobi;"IN: Caderno de resumos do I Fórum de Governança Ambiental da 
     Macrometrópole Paulista. Organizadores: Pedro Henrique C. Torres e Pedro Roberto Jacobi
-    (Organizadores), São Paulo: IEE-USP, 1ª ed., 2019, 331 pgs. ISBN 978-85-86923-56-2";http://pesquisa.ufabc.edu.br/macroamb/wp-content/uploads/2019/12/forum_macroamb_cad_resumo_FINAL-compactado.pdf;NA;NA
+    (Organizadores), São Paulo: IEE-USP, 1ª ed., 2019, 331 pgs. ISBN 978-85-86923-56-2";http://pesquisa.ufabc.edu.br/macroamb/wp-content/uploads/2019/12/forum_macroamb_cad_resumo_FINAL-compactado.pdf;NA;NA;NA
 Presented;Conference presentation;2019;"Governança da Água e perspectivas para a avaliação da qualidade de
     informações em indicadores de transparência";Beatriz Milz, Pedro Roberto Jacobi;"Anais do IV Encontro Nacional da Associação Nacional de
-    Pós-graduação e Pesquisa em Ambiente e Sociedade - ENANPPAS 2019";https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf;NA;https://milz-2019enanppas.netlify.app/
+    Pós-graduação e Pesquisa em Ambiente e Sociedade - ENANPPAS 2019";https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf;NA;https://milz-2019enanppas.netlify.app/;NA
 Presented;Conference presentation;2021;"  Transparency of Information on the Water Basin Committees Plenums
     in the Sao Paulo Macrometropolis, Brazil";Beatriz Milz, Pedro Roberto Jacobi;"*International Sociological Association (ISA) Forum of
     Sociology: Challenges of the 21st Century: Democracy, Environment,
-    Inequalities, Intersectionality*. 23 à 28 de fevereiro de 2021";NA;https://github.com/beatrizmilz/IV_ISA_2021;https://macroamb-isaconf2021.netlify.app/
+    Inequalities, Intersectionality*. 23 à 28 de fevereiro de 2021";https://github.com/beatrizmilz/IV_ISA_2021/blob/master/abstract.pdf;https://github.com/beatrizmilz/IV_ISA_2021;https://macroamb-isaconf2021.netlify.app/;NA
 Published;Book chapter;2020;"Chapter 10 - Recent extreme climate events in the São Paulo 
     Macrometropolis";Beatriz Milz, Ana Carolina Campos;"IN: Adaptation and Public Policies in the São Paulo Macro
     Metropolis: A Science-Policy Approach. 1. ed. – São Paulo: IEE-USP, 2020.
@@ -21,19 +21,19 @@ Published;Book chapter;2020;"Chapter 10 - Recent extreme climate events in the S
     JACOBI, P. R. <i class='fab fa-orcid'></i></a>;
     <a href='https://orcid.org/0000-0003-4531-3513'>BARBI, F.
     <i class='fab fa-orcid'></i></a>; <a href='https://orcid.org/0000-0003-1182-418X'>
-    GONÇALVES, L. R. <i class='fab fa-orcid'></i></a>";https://doi.org/10.11606/9788586923593;NA;NA
+    GONÇALVES, L. R. <i class='fab fa-orcid'></i></a>";https://doi.org/10.11606/9788586923593;NA;NA;NA
 Published;Book chapter;2019;"Breve levantamento de eventos climáticos extremos na Macrometrópole
     Paulista";Beatriz Milz, Ana Carolina Campos;"IN: Governança e Planejamento Ambiental: adaptação e políticas
-    públicas na Macrometrópole Paulista. Editora Letra Capital. 2019. p. 114–119.";https://www.letracapital.com.br/produto/governanca-e-planejamento-ambiental-adaptacao-e-politicas-publicas-na-macrometropole-paulista/;NA;NA
-Published;Journal;2019;Barragens de água na Macrometrópole Paulista;Beatriz Milz, Ana Carolina Campos;Diálogos Socioambientais na Macrometrópole Paulista. Volume 2. 2019. p. 34-37;https://periodicos.ufabc.edu.br/index.php/dialogossocioambientais/issue/view/23;NA;NA
-Published;Editorial;2020;Editorial nº 1/2020 . What fires in Australia indicate - Reflections on their scope;"Pedro Roberto Jacobi, Edson Grandisoli, 
-    Zenaida Luisa Lauda-Rodriguez, Beatriz Milz";Ambient. soc.,  São Paulo ,  v. 23;http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100201&lng=en&nrm=iso;NA;NA
-Submitted;Book chapter;2021;Seguridad hídrica y gobernanza del agua en la metrópolis de São Paulo;Wagner Costa Ribeiro, Pedro Roberto Jacobi, Beatriz Milz;IN: *Seguridad hídrica, gobernanza del agua y conflictos: estudio comparado de casos en América Latina*. Org: Javier Gonzaga (Universidad de Caldas – Colombia);NA;NA;NA
-Submitted;Book chapter;2021;Polycentric water governance in the Urban Global South;Klaus Frey, Ruth Ferreira Ramos, Lidiane Alonso Paixão dos Anjos, Pedro Roberto Jacobi, Beatriz Milz;Book Sustainability in Natural Resources Management and Land Planning. Editora Springer;NA;NA;NA
+    públicas na Macrometrópole Paulista. Editora Letra Capital. 2019. p. 114–119.";https://www.letracapital.com.br/produto/governanca-e-planejamento-ambiental-adaptacao-e-politicas-publicas-na-macrometropole-paulista/;NA;NA;NA
+Published;Journal;2019;Barragens de água na Macrometrópole Paulista;Beatriz Milz, Ana Carolina Campos;Diálogos Socioambientais na Macrometrópole Paulista. Volume 2. 2019. p. 34-37;https://periodicos.ufabc.edu.br/index.php/dialogossocioambientais/issue/view/23;NA;NA;NA
+Published;Journal Editorial;2020;Editorial nº 1/2020 . What fires in Australia indicate - Reflections on their scope;"Pedro Roberto Jacobi, Edson Grandisoli, 
+    Zenaida Luisa Lauda-Rodriguez, Beatriz Milz";Ambient. soc.,  São Paulo ,  v. 23;http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1414-753X2020000100201&lng=en&nrm=iso;NA;NA;NA
+Submitted;Book chapter;2021;Seguridad hídrica y gobernanza del agua en la metrópolis de São Paulo;Wagner Costa Ribeiro, Pedro Roberto Jacobi, Beatriz Milz;IN: *Seguridad hídrica, gobernanza del agua y conflictos: estudio comparado de casos en América Latina*. Org: Javier Gonzaga (Universidad de Caldas – Colombia);NA;NA;NA;NA
+Submitted;Book chapter;2021;Polycentric water governance in the Urban Global South;Klaus Frey, Ruth Ferreira Ramos, Lidiane Alonso Paixão dos Anjos, Pedro Roberto Jacobi, Beatriz Milz;Book Sustainability in Natural Resources Management and Land Planning. Editora Springer;NA;NA;NA;NA
 Submitted;Book chapter;2021;Levantamento de estudos sobre a Macrometrópole Paulista entre os anos de 2010 e 2020;Beatriz Milz, Pedro Roberto Jacobi;"IN: Inovação para Governança da Macrometrópole Paulista face à
     emergência climática. Organizadores: <a href='https://orcid.org/0000-0001-6143-3019'>
     JACOBI, PEDRO ROBERTO</a>; <a href='https://orcid.org/0000-0003-1154-6503'>GIATTI,
-    LEANDRO LUIZ</a>. Editora CRV";NA;NA;NA
+    LEANDRO LUIZ</a>. Editora CRV";NA;NA;NA;NA
 Submitted;Book chapter;2021;Paranapiacaba, Água e o Abastecimento da Macrometrópole Paulista;"LOPES, I. M.; MEDICI, A., Beatriz Milz";"IN: Paranapiacaba: conflitos, saberes e perspectivas de 
     desenvolvimento na Macrometrópole Paulista. Organizado por Ramos, R.F.; 
-    Passarelli, S.H.F; Sulaiman, S.; Jacobi, P";NA;NA;NA
+    Passarelli, S.H.F; Sulaiman, S.; Jacobi, P";NA;NA;NA;NA

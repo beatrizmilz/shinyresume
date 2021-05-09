@@ -23,7 +23,7 @@ academic_badges <- academic %>%
       type_of_publication == "Book chapter" ~ glue::glue(
         "![Type of publication](https://img.shields.io/badge/Type of publication-Book chapter-blue.svg)"
       ),
-      type_of_publication == "Editorial" ~ glue::glue(
+      type_of_publication == "Journal Editorial" ~ glue::glue(
         "![Type of publication](https://img.shields.io/badge/Type of publication-Journal Editorial-yellow.svg)"
       ),
       type_of_publication == "Journal" ~ glue::glue(
@@ -59,6 +59,13 @@ academic_badges <- academic %>%
       TRUE ~ glue::glue("")
     ),
     
+    url_youtube_badges = dplyr::case_when(
+      !is.na(url_youtube) ~ glue::glue(
+        "[![Watch the presentation](https://img.shields.io/badge/URL-Video-lightgray.svg)]({url_youtube})"
+      ),
+      TRUE ~ glue::glue("")
+    ),
+    
   ) %>%
   
   
@@ -75,7 +82,7 @@ academic_text <- academic_badges %>%
     ),
     text =
       glue::glue(
-        "- {status_badges} {type_of_publication_badges} <br> {url_text_badges} {url_slides_badges} {url_code_badges} \n  - {ano_previsao}. {authors_link}. {title}. {item_info_link}. \n\n \n\n \\<br>"
+        "- {status_badges} {type_of_publication_badges} <br> {url_text_badges} {url_slides_badges} {url_code_badges} {url_youtube_badges} \n  - {ano_previsao}. {authors_link}. {title}. {item_info_link}. \n\n \n\n \\<br>"
       )
   )
 

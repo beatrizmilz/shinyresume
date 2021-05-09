@@ -8,7 +8,8 @@ tibble::tibble(
   item_info = character(),
   url_text = character(),
   url_code = character(),
-  url_slides = character()
+  url_slides = character(),
+  url_youtube = character()
 ) %>%
   tibble::add_row(
     status = "Presented",
@@ -21,7 +22,9 @@ tibble::tibble(
     Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020",
     url_text = "https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf",
     # url_code = character(),
-    url_slides = "https://macroamb-latin-r.netlify.app/"
+    url_slides = "https://macroamb-latin-r.netlify.app/",
+    url_youtube = "https://www.youtube.com/watch?v=K8wmO3mSbU8"
+    
   ) %>%
   
   tibble::add_row(
@@ -65,7 +68,7 @@ tibble::tibble(
     item_info = "*International Sociological Association (ISA) Forum of
     Sociology: Challenges of the 21st Century: Democracy, Environment,
     Inequalities, Intersectionality*. 23 à 28 de fevereiro de 2021",
-    #url_text = "",
+    url_text = "https://github.com/beatrizmilz/IV_ISA_2021/blob/master/abstract.pdf",
     url_code = "https://github.com/beatrizmilz/IV_ISA_2021",
     url_slides = "https://macroamb-isaconf2021.netlify.app/"
   ) %>%
@@ -118,7 +121,7 @@ tibble::tibble(
   
   tibble::add_row(
     status = "Published",
-    type_of_publication = "Editorial",
+    type_of_publication = "Journal Editorial",
     year = 2020,
     title = 'Editorial nº 1/2020 . What fires in Australia indicate - Reflections on their scope',
     authors = "Pedro Roberto Jacobi, Edson Grandisoli, 
