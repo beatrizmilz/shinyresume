@@ -5,7 +5,7 @@ tibble::tibble(
   year = integer(),
   title = character(),
   authors = character(),
-  event_or_book_info = character(),
+  item_info = character(),
   url_text = character(),
   url_code = character(),
   url_slides = character()
@@ -17,7 +17,7 @@ tibble::tibble(
     title = "Avaliação da transparência em atas de reuniões dos Comitês de 
     Bacias Hidrográficas na Macrometrópole Paulista (Brasil)",
     authors = "Beatriz Milz, Pedro Roberto Jacobi, Diego Braga",
-    event_or_book_info = "LatinR 2020 - *Conferencia Latinoamericana sobre
+    item_info = "LatinR 2020 - *Conferencia Latinoamericana sobre
     Uso de R en Investigación + Desarrollo*. 7 a 9 de outubro de 2020.",
     url_text = "https://github.com/LatinR/presentaciones-LatinR2020/blob/main/trabajos/LatinR2020_envio_16.pdf",
     # url_code = character(),
@@ -33,7 +33,7 @@ tibble::tibble(
     title = "Governança da Água e perspectivas para a avaliação da qualidade de
     informações em indicadores de transparência",
     authors = "Beatriz Milz, Pedro Roberto Jacobi",
-    event_or_book_info = "IX ENANPPAS",
+    item_info = "IX ENANPPAS",
     url_text = "https://beatrizmilz.github.io/resume/publications/2019-Enanppas.pdf",
     # url_code = character(),
     url_slides = "https://milz-2019enanppas.netlify.app/"
