@@ -10,6 +10,7 @@ academic_badges <- readr::read_csv2("data/academic_badges.csv")
 
 # Define UI
 ui <- fluidPage(
+    includeCSS("www/style.css"),
     # Application title
     titlePanel("Publications and conference presentations"),
     

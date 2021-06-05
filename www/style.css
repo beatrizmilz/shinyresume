@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+body, td {
+    font-family: 'Commissioner', sans-serif;
+    background-color: rgb(242, 242, 241);
+}
+
+h1, h2, h3 {
+  color: #516DB0;
+  font-family: 'Metropolis', sans-serif;
+}
+
+p {
+  color : #404040;
+  font-family: 'Commissioner', sans-serif;
+}
+
+a, a:-webkit-any-link {
+  color: #516DB0;
+  
+}
