@@ -120,7 +120,22 @@ tibble::tibble(
     #url_slides = character()
   ) %>% 
   
-  ## Editoriais -----
+  tibble::add_row(
+    status = "Published",
+    type_of_publication = "Book chapter",
+    year = 2021, 
+    title = "Levantamento de estudos sobre a Macrometrópole Paulista entre os anos de 2010 e 2020",
+    authors = "Beatriz Milz, Pedro Roberto Jacobi",
+    item_info = "IN: <a href='https://www.editoracrv.com.br/produtos/detalhes/35891-inovacao-para-governanca-da-macrometropole-paulista-face-a-emergencia-climatica'>Inovação para Governança da Macrometrópole Paulista face à
+    emergência climática</a>. Organizadores: <a href='https://orcid.org/0000-0001-6143-3019'>
+    JACOBI, PEDRO ROBERTO</a>; <a href='https://orcid.org/0000-0003-1154-6503'>GIATTI,
+    LEANDRO LUIZ</a>. Editora CRV",
+    url_text = "https://beatrizmilz.github.io/resume/publications/2021-capitulo-mmp.pdf"
+    #url_code = character(),
+    #url_slides = character()
+  ) %>% 
+  
+## Editoriais -----
 
 tibble::add_row(
   status = "Published",
@@ -252,6 +267,7 @@ tibble::add_row(
   ) %>%
   
   
+  
 # submetidos ---------------
   tibble::add_row(
     status = "Submitted",
@@ -278,20 +294,7 @@ tibble::add_row(
     #url_slides = character()
   ) %>% 
   
-  tibble::add_row(
-    status = "Submitted",
-    type_of_publication = "Book chapter",
-    year = 2021, # PREVISTO
-    title = "Levantamento de estudos sobre a Macrometrópole Paulista entre os anos de 2010 e 2020",
-    authors = "Beatriz Milz, Pedro Roberto Jacobi",
-    item_info = "IN: Inovação para Governança da Macrometrópole Paulista face à
-    emergência climática. Organizadores: <a href='https://orcid.org/0000-0001-6143-3019'>
-    JACOBI, PEDRO ROBERTO</a>; <a href='https://orcid.org/0000-0003-1154-6503'>GIATTI,
-    LEANDRO LUIZ</a>. Editora CRV",
-    #url_text = ""
-    #url_code = character(),
-    #url_slides = character()
-  ) %>% 
+
 
   
   tibble::add_row(
@@ -309,16 +312,16 @@ tibble::add_row(
   ) %>% 
   
   tibble::add_row(
-    status = "Approved",
+    status = "Presented",
     type_of_publication = "Conference presentation",
-    year = 2021, # PREVISTO
+    year = 2021, 
     title = "Coleta de dados automatizada e integração contínua utilizando 
     GitHub Actions: Exemplos com o Pacote Mananciais",
     authors = "Beatriz Milz",
     item_info = "[V International Seminar on Statistics with R](http://ser.uff.br/)",
-    #url_text = ""
-    #url_code = character(),
-    #url_slides = character()
+    url_text = "https://beatrizmilz.com/talk/2021-ser-uff/",
+    url_code = "https://github.com/eventoseroficial/Data_and_Code/tree/main/Beatriz%20Milz#readme",
+    url_slides = "https://beatrizmilz.github.io/2021-SER/"
   ) %>% 
   
   
